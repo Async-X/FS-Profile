@@ -1,0 +1,28 @@
+TCP - 	서버 <-> 클라이언트 계속 통신
+	틱택토, 웹사이트 등
+
+UDP -	클라이언트 -> 서버 & 서버 -> 클라이언트
+	ex) 브롤스타즈의 레드와이파이: TCP였다면 리퀘스트를 받아야 하나 UDP라서 계속 게임 진행됨
+
+프론트엔드	Html, CSS, Javascript
+백엔드		DBMS, PHP, Java
+
+바닐라 JS, JQuery, Next.js, React, Nesp.js
+
+SSD Server side rendering (네이버 등, 구현하려면 최소 몇 개월)
+CSR Client side rendering (우리가 할 것)
+
+프로그래밍 언어 vs 마크업 언어
+프로그래밍 언어: Method, Function, P??
+마크업 언어: tags(<div>, <span> 등)
+
+<div>: 나눈다(코드 짜다 꼬임 방지) - html에서 처음 배우는 태그
+<h1>~<h6>: 제목 글자 크기 프리셋
+div 글자 뒤에 오는 거: property[속성]
+
+변수명/div id 지정 (카멜 방법)
+veryGoodPython
+very-good-python
+VeryGoodPython
+
+툴팁(속성): 글자 위에 올리면 나오는 쪼꼬만 거
