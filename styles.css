@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Freesentation-5Medium';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2404@1.0/Freesentation-5Medium.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Freesentation-9Black';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2404@1.0/Freesentation-9Black.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+}
+
+header {
+    background-color: #023E8A;
+    color: #FFFFFF;
+    font-family: 'Freesentation-5Medium';
+    width: 'device-width';
+    display: flex;
+    justify-content: center;
+    flex-wrap : wrap;
+    justify-content : space-around;
+    align-content: center;
+}
+
+.wit {
+    width: '80%';
+    white-space : nowrap;
+}
+
+h1, h2, h3{
+    margin: 0px, 20px, 0px, 20px;
+    display: inline-block;
+}
