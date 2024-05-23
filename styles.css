@@ -17,19 +17,35 @@ header {
     color: #FFFFFF;
     font-family: 'Freesentation-5Medium';
     width: 'device-width';
-    display: flex;
-    justify-content: center;
-    flex-wrap : wrap;
-    justify-content : space-around;
-    align-content: center;
 }
 
 .wit {
-    width: '80%';
-    white-space : nowrap;
+    width: '60%';
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap : wrap;
+    justify-content : space-evenly;
+    align-content: space-around;
+    align-items: center;
 }
 
+.header_ttl {
+    font-size: 1.4em;
+    font-family: 'Freesentation-9Black';
+}
+
+.header_sev {
+    font-size: 1.2em;
+}
+
+
+
+/*
 h1, h2, h3{
+    
     margin: 0px, 20px, 0px, 20px;
+    
     display: inline-block;
 }
+*/
