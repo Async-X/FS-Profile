@@ -12,15 +12,33 @@
     font-style: normal;
 }
 
+body {
+    font-family: 'Freesentation-5Medium';
+    padding: 0;
+    margin: 0;
+}
+
 header {
+    position: fixed;
+    text-align: center;
+    width: 100vw;
     background-color: #023E8A;
     color: #FFFFFF;
     font-family: 'Freesentation-5Medium';
-    width: 'device-width';
+    line-height: 0.9em;
+    top: 0;
+    z-index: 999;
+}
+
+.witt {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
 }
 
 .wit {
-    width: '60%';
+    width: 80%;
+    text-align: center;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -39,7 +57,24 @@ header {
     font-size: 1.2em;
 }
 
+article {
+    color: black;
+    font-size: 24px;
+    padding: 15px;
+}
 
+/*
+.main {
+    margin-top: 3%;
+}
+*/
+
+.masthead {
+    background: linear-gradient(135deg,#0077B6 0,#00B4D8 100%)/*,url(/images/masthead.jpg) 50% no-repeat*/;
+    height: 70dvh;
+    text-align: center;
+    vertical-align: center;
+}
 
 /*
 h1, h2, h3{
