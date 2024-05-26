@@ -14,7 +14,7 @@
             <div class = "wit">
                 <div class = "header_sev">(예시 텍스트1)</div>
                 <div class = "header_sev">(예시 텍스트2)</div>
-                <div class = "header_ttl">멋있고 개쩌는 제목</div>
+                <div class = "header_ttl">나의 소개</div>
                 <div class = "header_sev">(예시 텍스트3)</div>
                 <div class = "header_sev">(예시 텍스트4)</div>
             </div>
@@ -37,9 +37,35 @@
     <div class = "main">
         <article id="articles" class="article_1">
             <div class="article_ttl">
-                어린이집생의 나
+                어린이집의 나
             </div>
             
+            <hr>
+            <span class="article_sub">Cars</span>
+            <br>
+
+            <div class="article_con">
+                <div class="article_con_con">
+                    어린이집 때부터 초등 저학년까지 저는 자동차에 빠졌습니다.<br>
+                    부품이나 작동 방식 등의 기계공학 방향이 아니라, 자동차들의 브랜드와 모델 쪽에 관심이 많았습니다. 
+                    주변에서 보이는 자동차들의 브랜드와 모델을 모조리 외워 버렸습니다. 
+                    부모님들은 저를 위해 자동차 브랜드 로고들이 담긴 책자를 만들어 주셨고, 저는 그걸 매우 아꼈습니다.
+                    <br><br>
+                    자동차의 종류를 답할 때 남들이 트럭, 택시 등을 말하는 옆에서 저는 세단과 SUV를 외치곤 하였습니다.
+                    <br><br>
+                    저의 자동차 사랑이 절정에 있었던 당시의 저의 최애 자동차는 닛산의 큐브와 미니 쿠퍼였지만, 한국 자동차 중에서는 쏘나타였습니다. 
+                </div>
+                
+                <div class="article_con_con">
+                    <img src="photo1.png" alt="[자동차 쏘나타의 사진]" class="photo"> 
+                    <div class="photo_desc">
+                        현대자동차 쏘나타 2016년형, 전자신문<br>
+                        당시 본인이 가장 좋아했던 현대자동차 자동차
+                    </div>
+                </div>              
+
+
+            </div>
         </article>
     </div>
 
@@ -47,10 +73,13 @@
     <script> 
         window.addEventListener('scroll', function() {
             var header = document.getElementById('top-header');
+            var article = document.getElementById('articles');
             if (window.scrollY > 0) {
                 header.classList.add('intransparent');
+                article.classList.add('rounder');
             } else {
                 header.classList.remove('intransparent');
+                article.classList.remove('rounder');
             }
         });
     </script>
