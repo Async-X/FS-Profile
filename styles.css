@@ -6,9 +6,23 @@
 }
 
 @font-face {
+    font-family: 'Freesentation-7Bold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2404@1.0/Freesentation-7Bold.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'Freesentation-9Black';
     src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2404@1.0/Freesentation-9Black.woff2') format('woff2');
     font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RixInooAriDuriR';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2207-01@1.0/RixInooAriDuriR.woff2') format('woff2');
+    font-weight: normal;
     font-style: normal;
 }
 
@@ -22,12 +36,18 @@ header {
     position: fixed;
     text-align: center;
     width: 100vw;
-    background-color: #023E8A;
-    color: #FFFFFF;
+    background-color: #023E8A00;
+    color: #FFFFFFAA;
     font-family: 'Freesentation-5Medium';
     line-height: 0.9em;
     top: 0;
     z-index: 999;
+    transition: background-color 0.3s;
+}
+
+header.intransparent {
+    background-color: #0e4569;
+    color: #FFFFFF;
 }
 
 .witt {
@@ -63,17 +83,55 @@ article {
     padding: 15px;
 }
 
-/*
+
 .main {
-    margin-top: 3%;
+    display: grid;
+    place-items: center;
+    align-items: center;
+    align-content: center;
 }
-*/
+
 
 .masthead {
     background: linear-gradient(135deg,#0077B6 0,#00B4D8 100%)/*,url(/images/masthead.jpg) 50% no-repeat*/;
     height: 70dvh;
     text-align: center;
     vertical-align: center;
+    color: white;
+    display: grid;
+    place-items: center;
+    align-items: center;
+    align-content: center;
+    
+}
+
+.masthead_ttl {
+    font-family: 'RixInooAriDuriR', serif;
+    font-size: 60px
+}
+
+.masthead_con {
+    font-size: 25px
+}
+
+article {
+    text-align: center;
+}
+
+.article_ttl {
+    font-family: 'Freesentation-7Bold';
+    font-size: 50px
+}
+
+#articles {
+    width: 70vw;
+    box-shadow: 5px 5px 5px 5px gray;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin: 20px 10px;
+    border-radius: 30px;
 }
 
 /*
