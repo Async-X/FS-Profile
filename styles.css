@@ -95,7 +95,7 @@ article {
 
 .masthead {
     background: linear-gradient(135deg,#0077B6 0,#00B4D8 100%)/*,url(/images/masthead.jpg) 50% no-repeat*/;
-    height: 70dvh;
+    height: 65dvh;
     text-align: center;
     vertical-align: center;
     color: white;
@@ -167,6 +167,7 @@ article {
     margin: 40px 10px;
     border-radius: 30px;
     transition: border-radius 0.3s;
+    background: linear-gradient(350deg,#ffffff 90%,#b5edf7 100%)
 }
 
 article.rounder {
