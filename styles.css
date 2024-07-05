@@ -150,7 +150,7 @@ article {
 
 .article_con_longcon {
     flex-grow: 1;
-    text-align: left;
+    text-align: justify;
     line-height: 1.5em;
     flex: 0 0 100%;
     word-break: keep-all;
@@ -160,9 +160,18 @@ article {
 }
 
 
-.article_con_con img {
+.photo {
     width: 100%;
     height: auto;
+}
+
+.photoNotLong {
+    width: auto;
+    height: auto;
+}
+
+.photo_mid_container {
+    text-align: center;
 }
 
 .photo_desc {
