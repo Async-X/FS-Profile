@@ -150,7 +150,7 @@ article {
 
 .article_con_longcon {
     flex-grow: 1;
-    text-align: justify;
+    text-align: left;
     line-height: 1.5em;
     flex: 0 0 100%;
     word-break: keep-all;
@@ -191,7 +191,7 @@ article {
     margin: 40px 10px;
     border-radius: 30px;
     transition: border-radius 0.3s;
-    background: linear-gradient(355deg,#ffffff 85%,#cde4f3 100%)
+    background: linear-gradient(355deg,#ffffff 80%,#c2f0ff 100%)
 }
 
 article.rounder {
