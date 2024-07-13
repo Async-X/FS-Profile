@@ -198,6 +198,20 @@ article.rounder {
     border-radius: 10px
 }
 
+.u {
+    display: none
+}
+
+.entry {
+    width: 100%;
+    text-align: center;
+    place-items: center;
+}
+
+.v {
+    display: grid;
+}
+
 
 /*
 h1, h2, h3{
