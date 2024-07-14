@@ -71,17 +71,28 @@ header.intransparent {
 .header_ttl {
     font-size: 1.4em;
     font-family: 'Freesentation-9Black';
+    cursor: pointer;
 }
 
 .header_sev {
     font-size: 1.2em;
+    cursor: pointer;
 }
 
 article {
     color: black;
     font-size: 24px;
-    padding: 15px;
     text-align: center;
+    width: 60vw;
+    box-shadow: 5px 5px 5px 5px gray;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    margin: 40px 10px;
+    border-radius: 30px;
+    transition: border-radius 0.3s;
+    background: linear-gradient(355deg,#ffffff 80%,#c2f0ff 100%)
 }
 
 
@@ -91,6 +102,7 @@ article {
     align-items: start;
     align-content: start;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 
@@ -181,19 +193,6 @@ article {
     line-height: 1.2em;
 }
 
-#articles {
-    width: 60vw;
-    box-shadow: 5px 5px 5px 5px gray;
-    padding-top: 30px;
-    padding-right: 30px;
-    padding-bottom: 30px;
-    padding-left: 30px;
-    margin: 40px 10px;
-    border-radius: 30px;
-    transition: border-radius 0.3s;
-    background: linear-gradient(355deg,#ffffff 80%,#c2f0ff 100%)
-}
-
 article.rounder {
     border-radius: 10px
 }
@@ -212,7 +211,49 @@ article.rounder {
     display: grid;
 }
 
+.instagram {
+    width: 100%;
+    display: grid;
+    text-align: center;
+    align-items: center;
+    margin: 40px 20px;
+}
 
+.logo {
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+}
+
+.myinstagramid{
+    border-radius: 30px;
+    background-color: rgb(226, 226, 226);
+    width: fit-content;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    position: relative;
+    padding-bottom: 5px;
+    font-size: 20px;
+    color: #222222;
+    font-family: 'Courier New', Courier, monospace;
+    transition: transform 0.3s ease-out, opacity 0.3s ease;   
+    opacity: 0;
+    transform: translateY(-10px);    
+}
+
+
+.instagram_container{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap : wrap;
+    justify-content : space-evenly;
+    align-content: space-around;
+    align-items: center;
+}
 /*
 h1, h2, h3{
     

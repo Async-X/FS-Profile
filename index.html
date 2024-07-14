@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>포트폴리오</title>
+    <title>포트폴리오?</title>
     <link href="./styles.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -12,17 +12,17 @@
         <span style = "font-size: 0.1em;">&nbsp;</span>
         <div class = "witt">
             <div class = "wit">
-                <div class = "header_sev">(예시 텍스트1)</div>
-                <div class = "header_sev">(예시 텍스트2)</div>
-                <div class = "header_ttl">나의 소개</div>
-                <div class = "header_sev">(예시 텍스트3)</div>
-                <div class = "header_sev">(예시 텍스트4)</div>
+                <div class = "header_sev" target = "eor">어린이집의 나</div>
+                <div class = "header_sev" target = "cho">초등학교의 나</div>
+                <div class = "header_ttl" target = "upp">나의 소개</div>
+                <div class = "header_sev" target = "jun"> 중학교의 나 </div>
+                <div class = "header_sev" target = "kod">고등학교의 나</div>
             </div>
         </div>
         <span style = "font-size: 0.1em;">&nbsp;</span>
     </header>
 
-    <div class = "masthead">
+    <div class = "masthead" id="upp">
         <div class = "masthead_ttl">Hello World!</div>
         <br>
         <span style="font-size: 20px;">
@@ -36,7 +36,7 @@
 
     <div class = "main">
 
-        <article id="articles">
+        <article id="eor">
             <div class="article_ttl">
                 어린이집의 나
             </div>
@@ -44,20 +44,21 @@
             <span class="article_sub">Cars</span>
             <br>
             <div class="article_con">
-
                 <div class="article_con_con">
                     어린이집 때부터 초등 저학년까지 저는 자동차에 빠졌습니다.
                     부품이나 작동 방식 등의 기계공학 방향이 아니라 자동차들의 브랜드와 모델 쪽에 관심이 많았습니다. 
-                    주변에서 보이는 자동차들의 브랜드와 모델을 모조리 외워 버렸습니다. 
+                    <br>
+                    주변에서 보이는 자동차들의 브랜드와 모델을 모조리 외웠습니다. 
                     부모님은 저를 위해 자동차 브랜드 로고들이 담긴 책자를 만들어 주셨고 저는 그걸 매우 아꼈습니다.
-                    저의 자동차 사랑이 절정에 있었던 당시의 저의 최애 자동차는 닛산의 큐브와 미니 쿠퍼였지만, 한국 자동차 중에서는 쏘나타였습니다. 
+                    <br>
+                    저의 자동차 사랑이 절정에 있었던 당시의 저의 최애 자동차는 닛산의 큐브와 미니 쿠퍼였습니다.
                 </div>
 
                 <div class="article_con_con">
                     <img src="photo1.png" alt="[자동차 쏘나타의 사진]" class="photo"> 
                     <div class="photo_desc">
                         현대자동차 쏘나타 2016년형, 전자신문<br>
-                        당시 내가 가장 좋아했던 현대자동차 자동차
+                        당시 가장 좋아했던 현대자동차 자동차
                     </div>
                 </div>    
 
@@ -65,7 +66,7 @@
         </article>
 
 
-        <article id="articles">
+        <article id="cho">
             <div class="article_ttl">
                 초등학교의 나(1)
             </div>
@@ -114,7 +115,7 @@
         </article>
 
 
-        <article id="articles">
+        <article>
             <div class="article_ttl">
                 초등학교의 나(2)
             </div>
@@ -165,11 +166,16 @@
                         현재는 노후되어 더 이상 볼 수 없게 된 열차이다.
                     </div>
                 </div>
-
+                <div class="article_con_con">
+                    <img src="photo10.png" alt="[경인선 신저항 1x85편성 열차]" class="photo"> 
+                </div>
+                <div class="article_con_con">
+                    <img src="photo11.png" alt="[경인선 신저항 1x85편성 열차]" class="photo"> 
+                </div>
             </div>
         </article>
 
-        <article id="articles">
+        <article>
             <div class="article_ttl">
                 초등학교의 나(3)
             </div>
@@ -240,19 +246,20 @@
                 <div class="article_con_con">
                     또 초등학생 때 융합정보영재원에서 산출물로 엔트리 게임을 만들어 발표하기도 하였습니다. 
                     <br>
-                    바위 모양 물체를 움직여 가능한 한 오래 장애물을 피하면서 버티는 게임입니다.
+                    바위 모양 물체를 움직여 가능한 한 오래 화살, 대포알 등 장애물을 피하면서 버티는 게임입니다.
                 </div>
                 <div class="article_con_longcon">
                     이 게임에서 바위는 중력의 힘을 받아 떨어지고 키를 입력할 때 지속적인 힘을 받아 좌우로 움직입니다. 
                     떨어질 때 속도가 일정하게 증가한다라는 것, 일정하게 힘을 주고 있을 때 속도가 일정하게 증가한다는 것을 저도 모르게 엔트리로 구현하였습니다.
                     물리에 대해 하나도 배우지 않고 직관, 관찰, 추측만으로 물리 현상을 구현해 일종의 단순한 물리 엔진을 만든 것이 됩니다. 
                     <br>
-                    발표 당시 친구들로부터 '엔트리로 저런 것도 만들 수 있었냐'며 칭찬을 받았던 것이 기억에 남습니다.
+                    발표 당시 친구들로부터 칭찬과 박수를 받았던 것이 기억에 남습니다.
                 </div>
                 <div class="article_con_longcon">
                     아래 버튼을 눌러 엔트리 작품을 플레이할 수 있습니다. 페이지를 나가지 않아도 됩니다!
                     <br><br>
-                    <a class="entryToggle", style="font-size: 2.5em; color: mediumseagreen;"> [▶] </a> <a style="font-size: 0.7em; color: gray"> &NonBreakingSpace; 버튼 눌러 보이거나 숨기기</a> 
+                    <a class="entryToggle", style="font-size: 2.5em; color: mediumseagreen; cursor: pointer;"> [▶] </a> <a style="font-size: 0.7em; color: gray"> 
+                        버튼 눌러 보이거나 숨기기</a> 
                 </div>
                 
                 <div class="entry u">
@@ -267,28 +274,143 @@
         </article>
         
 
-        <article id="articles">
+        <article id="jun">
             <div class="article_ttl">
-                중학교의 나
+                중학교의 나(1)
+            </div>
+            <hr>
+            <span class="article_sub">C</span>
+            <br>
+            <div class="article_con">
+                <div class="article_con_longcon">
+                    저는 초등학교 때에 이어 중학교 1학년과 2학년 때 융합정보영재원에 합격해 수업을 받았습니다. 이때 파이썬과 앱 인벤터, 그리고 C(C++)를 배웠습니다.
+                </div>
+                
+                <div class="article_con_con">
+                    최종 산출물 발표 대회 때 C(C++)로 만든 작품을 발표하여 최우수상(2021)과 우수상(2022)을 탔습니다.
+                    <br>
+                    <br>
+                    산출물 작품을 만드는 중 원인을 도무지 알 수 없는 버그와 맞서 싸우기 위해, 원하는 기능을 구현하는 방법을 찾기 위해 수 시간들을 할애하는 법을 배웠습니다. 
+                    <br>
+                    <br>
+                    이때 얻은 교훈은 지금 이 시간까지 저에게 중요한 것으로 작용하고 있습니다.
+                </div>
+                
+                <div class="article_con_con">
+                    <img src="photo9.png" alt="[C언어 코드 사진]" class="photo"> 
+                    <div class="photo_desc">
+                        2021년 산출물 발표 작품이었던 '3가지 미니게임'의 낚시게임 일부.
+                    </div>
+                </div>    
+            </div>
+        </article>
+
+        <article>
+            <div class="article_ttl">
+                중학교의 나(2)
             </div>
             <hr>
             <span class="article_sub">Birds</span>
             <br>
+            <div class="article_con">
+                <div class="article_con_longcon">
+                    중학교 1학년 겨울방학 때 유튜브 채널 '새덕후'를 보고 야생 새를 관찰하는 것에 흥미를 느꼈습니다.
+                </div>                
+
+            <div class="article_con_con">
+                <img src="photo12.png" alt="[백할미새의 사진]" class="photo"> 
+                <img src="photo13.png" alt="[사진 속 새가 백할미새라는 답변글]" class="photo"> 
+                <div class="photo_desc">
+                    뚝섬한강공원에서 발견한 백할미새의 사진과 지식iN 답변.
+                </div>
+            </div> 
+
+            <div class="article_con_con">
+                지하철의 사진을 찍으러 다닐 때 아버지가 사 주신 카메라가 있었기에, 무작정 집 근처에 있는 한강공원으로 나가 눈에 보이는 새를 찍고
+                네이버 지식iN에 물어보곤 했습니다.
+                <br>
+                <br>
+                이때의 저는 시간이 많고 공부에도 관심이 없던 터라 겨울임에도 불구하고 매일 공원에 새를 찾으러 나갔습니다.
+                본 적 없는 새를 발견하고 그 새의 종류를 알아내는 것이 저의 낙이었습니다.
+                <br>
+                <br>
+                아빠를 졸라 조금 더 멀리까지 확대할 수 있는 카메라를 갖게 되고 나서 본격적으로 탐조(探鳥, birdwatching)를 시작하게 되었습니다.
+                <br>
+                <br>
+                새를 찾기 위해 수도권 여기저기를 친구와, 가족과 돌아다녔습니다. 어딜 가나 카메라와 조류도감을 들고 다녔습니다.
+                <br>
+                <br>
+                저의 새 사랑은 꽤 오래갔으며 현재진행형이기도 합니다. 지금까지 무려 166종의 새를 관찰하게 되었습니다.
+            </div>
+
+            <div class="article_con_longcon">
+                현재까지 두 명의 친구를 탐조의 세계로 빠뜨렸었습니다. 그들이 빠져든 원인은 하나같이 새가 귀여워서였습니다. 
+                
+                주변에 있는 새들에게 귀를 귀울여 보세요. 참새, 까치, 비둘기 말고도 다른 새가 우리 주변에서 살아가고 있다는 것이 조금씩 보이기 시작할 것입니다.            
+            </div>
+            <div class="article_con_con">
+                <img src="photo14.png" alt="[큰고니 3마리가 삼각형을 이루어 나는 모습]" class="photo"> 
+                <div class="photo_desc">
+                    백조의 일종인 큰고니가 두물머리 상공을 나는 모습.
+                </div>
+            </div>
+            <div class="article_con_con">
+                <img src="photo15.png" alt="[털발말똥가리가 나무 사이를 나는 모습]" class="photo"> 
+                <div class="photo_desc">
+                    털발말똥가리가 눈이 쌓인 나무 주변을 날고 있는 모습.
+                    <br>
+                    큰고니와 털발말똥가리는 멸종위기종이자 천연기념물로서 보호받고 있다.
+                </div>
+            </div>
+        </div>
         </article>
 
-
-        <article id="articles">
+        <article id="kod">
             <div class="article_ttl">
                 고등학교의 나
             </div>
             <hr>
-            <span class="article_sub">Undefined Variation</span>
+            <span class="article_sub">Undefined Variable</span>
             <br>
+            <div class="article_con">
+                <div class="article_con_longcon">
+                    학교에서 python을 배우고 만든 작품을 발표하는 시간에, 여러 자료를 찾아보아 영어 지문 외우는 것을 돕는 프로그램을 만들었습니다. 
+                    아직은 그게 다입니다.
+                </div>
+                <div class="article_con_con">
+                    현재의 저는 고등학교에 입학한 지 반 년이 조금 안 된 상태입니다.
+                    아직 고등학교에서 무엇을 하게 될지, 무엇을 할 것인지조차 알 수 없습니다. 
+                    마치 type이 정의되지 않은 변수와도 같죠.
+                </div>
+                <div class="article_con_con">
+                    고등학교에서 2.5년의 시간을 더 보내게 될 것입니다.<br>
+                    어떻게 될지 잘 모르겠지만, 앞으로의 저를 지켜봐주세요.<br>
+                    감사합니다.
+                </div>
+            </div>
         </article>
+
+        <div class="instagram">
+            <div class="instagram_container logo_container">
+                <div>
+                    <img src="instagram.png" alt="INSTAGRAM" class="logo"> 
+                </div>
+            </div>
+    
+            <div class="instagram_container">
+                <div class="myinstagramid">
+                    <div>
+                        <span><b><a style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">@</a>jaewon6535</b></span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <!-- ChatGPT의 도움을 받음 -->
     <script> 
+    // ChatGPT의 도움을 받음
+        let insta_visible = 0;
+
         window.addEventListener('scroll', function() {
             var header = document.getElementById('top-header');
             var article = document.getElementById('articles');
@@ -300,6 +422,7 @@
                 article.classList.remove('rounder');
             }
         });
+        
         document.getElementsByClassName("entryToggle")[0].addEventListener("click", function() {
             var entry = document.getElementsByClassName("entry")[0];
             if (entry.classList.contains("u")) {
@@ -309,6 +432,32 @@
                 entry.classList.remove("v");
                 entry.classList.add("u");
             }
+        });
+
+        document.querySelectorAll('header div').forEach(div => {
+            div.addEventListener('click', () => {
+                const targetId = div.getAttribute('target');
+                const targetElement = document.getElementById(targetId);
+                const offset = -70;
+                const elementPosition = targetElement.getBoundingClientRect().top;
+
+                window.scrollTo({
+                    top: elementPosition + window.pageYOffset + offset,
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        document.querySelector('.logo').addEventListener('click', function() {
+            const myinstagramid = document.querySelector('.myinstagramid');
+            if (insta_visible) {
+                myinstagramid.style.transform = 'translateY(-10px)';
+                myinstagramid.style.opacity = 0;
+            } else {
+                myinstagramid.style.transform = 'translateY(5px)';
+                myinstagramid.style.opacity = 1;
+            }
+            insta_visible = !insta_visible;
         });
     </script>
 </body>
